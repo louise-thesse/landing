@@ -1,0 +1,28 @@
+.container {
+	width: 700px;
+	margin: 0px auto;
+	font-family: 'Roboto',sans serif;
+	font-weight: bold;
+	
+
+}
+
+
+@media (max-width: 960px) {
+	.container { 
+		width: 700px; 
+	}
+}
+
+@media (max-width: 760px) {
+	.container { 
+		width: 600px; 
+	}
+}
+
+@media (max-width: 500px) {
+	.container { 
+		width: 400px; 
+	}
+} 
+
